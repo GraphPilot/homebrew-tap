@@ -1,28 +1,28 @@
 class Gpilot < Formula
   desc "GraphPilot CLI"
   homepage "https://github.com/GraphPilot/gpilot"
-  version "0.7.0"
+  version "0.8.0"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/GraphPilot/gpilot/releases/download/v0.7.0/gpilot-cli-0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "939fe1357beb80ec505a1ba437bf6f16a0adaf5bff43ef53cc1e574c0793058c"
+      url "https://github.com/GraphPilot/gpilot/releases/download/v0.8.0/gpilot-cli-0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "7dc8e1697e0ec6519dad0a673b5b762ce46dc27156a40dfec091aaded6950e8f"
     end
     on_intel do
-      url "https://github.com/GraphPilot/gpilot/releases/download/v0.7.0/gpilot-cli-0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a60e9913023e3efd69841bc99cd54859269e1a034b2d44c33f9557721796a616"
+      url "https://github.com/GraphPilot/gpilot/releases/download/v0.8.0/gpilot-cli-0.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8f848ee65607aa268ad7558d46e12372cab018f8750380f19df37d1fd69b7fbb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/GraphPilot/gpilot/releases/download/v0.7.0/gpilot-cli-0.7.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ca57faeae2fd5d51d463321addefe542c226ec7bd6f76b21aa6ffd6f4475f58e"
+      url "https://github.com/GraphPilot/gpilot/releases/download/v0.8.0/gpilot-cli-0.8.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6b1eb7967f9ae3c5102524129316ece41f00da589a5a168ccf2e44542227ff8b"
     end
     on_intel do
-      url "https://github.com/GraphPilot/gpilot/releases/download/v0.7.0/gpilot-cli-0.7.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d604b4a10d7fa78be148508d661d628244c0ebd58e7b2284d65cac48c05a2a63"
+      url "https://github.com/GraphPilot/gpilot/releases/download/v0.8.0/gpilot-cli-0.8.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "da6a11cbaecffba28c098dab1a30f2f67865df462077b905a869a5b49079ca33"
     end
   end
 

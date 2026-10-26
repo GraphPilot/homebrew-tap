@@ -1,28 +1,28 @@
 class Gpilot < Formula
   desc "GraphPilot CLI"
   homepage "https://github.com/GraphPilot/gpilot"
-  version "1.1.1"
+  version "1.2.0"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/GraphPilot/gpilot/releases/download/v1.1.1/gpilot-cli-1.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "41ac48b9c6243bee0802f75f0c7a583a59946f5f6f8cf999506d8f626f155815"
+      url "https://github.com/GraphPilot/gpilot/releases/download/v1.2.0/gpilot-cli-1.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0555d11fdc6a39181e91c06b3c5c46737f5a3e5eb69df67e77d4614cbe11ed49"
     end
     on_intel do
-      url "https://github.com/GraphPilot/gpilot/releases/download/v1.1.1/gpilot-cli-1.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "0af713a064e37fc4b5764d3600a84ee8218397d9baec6e63674ff5538ab6569a"
+      url "https://github.com/GraphPilot/gpilot/releases/download/v1.2.0/gpilot-cli-1.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a0f7acbce63a7c5384bd59cb496b07332c23512be9f3eceffd02806bd1d26084"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/GraphPilot/gpilot/releases/download/v1.1.1/gpilot-cli-1.1.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "480923f9a0c3fbf8b9718a4ad3f34c8602b83c15cf7abdd05bb30e58a2569237"
+      url "https://github.com/GraphPilot/gpilot/releases/download/v1.2.0/gpilot-cli-1.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "2bddc1f1118ec3eb8c48b7ad2692e138a7970364b5a121f8baaa42037490410e"
     end
     on_intel do
-      url "https://github.com/GraphPilot/gpilot/releases/download/v1.1.1/gpilot-cli-1.1.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d35ac3b5111329169d31666ce2062fb405b7680949a16548fb02a1e14b6a10e4"
+      url "https://github.com/GraphPilot/gpilot/releases/download/v1.2.0/gpilot-cli-1.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "3dbe282141f076e24c68cb9937ace21b44f3a53f578394304cad829106f76391"
     end
   end
 
